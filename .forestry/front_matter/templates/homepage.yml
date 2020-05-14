@@ -3,20 +3,17 @@ pages:
   - index.md
 hide_body: false
 fields:
-  - name: title
+  - name: body
     default: ""
-    label: Title
+    label: Body
     hidden: false
-    type: text
-  - name: publishDate
+    type: textarea
+  - name: image
     default: ""
-    label: Date
+    label: "Image"
     hidden: false
-    type: datetime
-  - name: Categories
-    default: []
-    label: Categories
-    hidden: false
-    type: list
+    type: file
+    config:
+      maxSize: 2
 ---
 

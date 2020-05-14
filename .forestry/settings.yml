@@ -16,10 +16,8 @@ build:
   working_dir: "/srv"
   instant_preview_command: npm run forestry:preview
 sections:
-  - type: directory
-    path: src/content/posts
-    label: Posts
-    create: documents
-    match: "**/*"
+  - type: document
+    path: content/data/index.json
+    label: Homepage
     templates:
-      - blog
+      - homepage
