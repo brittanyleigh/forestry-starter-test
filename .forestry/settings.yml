@@ -6,13 +6,10 @@ webhook_url:
 sections:
 - type: directory
   path: content
-  label: Home
+  label: Pages
   create: documents
   match: "**/*"
-  new_doc_ext: ".json"
-- type: document
-  path: src/content/homepage.json
-  label: Homepage
+  new_doc_ext: json
 upload_dir: static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
