@@ -1,19 +1,28 @@
 ---
 pages:
-  - index.md
+  - content/data/homepage.json
 hide_body: false
 fields:
-  - name: body
+  - type: text
+    name: title
     default: ""
-    label: Body
+    label: Title
     hidden: false
-    type: textarea
-  - name: image
-    default: ""
-    label: "Image"
-    hidden: false
-    type: file
+  - type: field_group_list
+    name: items
+    label: Items
+    fields:
+      - type: text
+        name: heading
+        label: Heading
+        config:
+          required: true
+      - type: textarea
+        name: body
+        label: Body
+        config:
+          required: true
     config:
-      maxSize: 2
+      labelField: name
 ---
 

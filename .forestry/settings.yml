@@ -17,7 +17,7 @@ build:
   instant_preview_command: npm run forestry:preview
 sections:
   - type: document
-    path: content/data/index.json
+    path: content/data/homepage.json
     label: Homepage
     templates:
       - homepage
