@@ -9,8 +9,8 @@ fields:
     label: Title
     hidden: false
   - type: field_group_list
-    name: items
-    label: Items
+    name: content
+    label: Content
     fields:
       - type: text
         name: heading
