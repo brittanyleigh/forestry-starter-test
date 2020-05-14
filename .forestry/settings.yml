@@ -4,18 +4,9 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: directory
-  path: src/content/data
-  label: Home
-  create: documents
-  match: "**/*"
-  new_doc_ext: "*.json"
-  templates:
-  - homepage
 - type: document
   path: src/content/data/homepage.json
   label: Homepage
-  read_only: false
 upload_dir: static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
