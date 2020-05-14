@@ -1,6 +1,7 @@
 ---
 pages:
   - content/data/homepage.json
+label: homepage
 hide_body: false
 fields:
   - type: text
